@@ -15,7 +15,7 @@ class ClassList:
     def __init__(self, max_students):
 
         if max_students <= 0:  # raise StudentError if max students <= 0
-            raise StudentError("Number of students must be greater than 0")
+            raise StudentError('Number of students must be greater than 0')
 
         self.class_list = []
         self.max_students = max_students
@@ -29,7 +29,6 @@ class ClassList:
             else:
                 raise StudentError('Student %s already enrolled, can\'t add again' % student)
 
-
     def remove_student(self, student):
         """ Remove student from class list. Raises Error if student not in list """
         if student not in self.class_list:
@@ -37,11 +36,9 @@ class ClassList:
 
         self.class_list.remove(student)
 
-
     def is_enrolled(self, student):
         """ Verifies if the student is enrolled or not """
         return student in self.class_list
-
 
     def index_of_student(self, student):
         """ Returns position of student in list, indexed from 1
@@ -50,10 +47,8 @@ class ClassList:
             return self.class_list.index(student) + 1
         return None
 
-
-    ## TODO add a method called is_class_full.
+    # TODO add a method called is_class_full.
     # This should return True or False to indicate if the class is full.
-
 
     def __str__(self):
         return ", ".join(self.class_list)
@@ -61,7 +56,7 @@ class ClassList:
 
 def main():
 
-    ## Examples of using the program
+    # Examples of using the program
 
     capstone = ClassList(5)
     capstone.add_student('Anna')
