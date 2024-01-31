@@ -5,12 +5,16 @@ def main():
     
 
 def discount(item_prices):
-    """ Complete this function that returns the discount earned for a list of item prices
-    If a customer has ordered more than three items, the cheapest item is free.
-    Example: if this function is called with a list of [10, 4, 20] then return 4.
+    """ This function returns the discount earned for a list of item prices.
+    If a customer has ordered three or more items, the cheapest item is free.
+    Example: if this function is called with a list of [10, 4, 20] then it will return 4.
     """
+    if len(item_prices) >= 3:
+        return min(item_prices)
+    else:
+        return 0
 
-    pass  # todo replace this line with your code 
+    # more requirements needed - what to do if list is empty, if list has strings, etc.?
 
 
 if __name__ == '__main__':

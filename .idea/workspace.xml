@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14e83d21-391e-4acb-acd2-030428725698" name="Changes" comment="added lecture code" />
+    <list default="true" id="14e83d21-391e-4acb-acd2-030428725698" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/cart_discount/price_discount.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart_discount/price_discount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart_discount/test_discount.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart_discount/test_discount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magic_8_ball/functions_magic.py" beforeDir="false" afterPath="$PROJECT_DIR$/magic_8_ball/functions_magic.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2bhuhDyL1W4iETb1ATGkspaO1Rk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,11 +29,13 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests for test_student_lists.TestStudentLists.executor": "Run",
+    "Python tests.Python tests in test_discount.py.executor": "Run",
     "Python.student_lists.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/alexa/OneDrive - MNSCU/ITEC 2905 Software Development Capstone/project-2---reading-list-alexandrea-suban"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,11 +75,48 @@
       <option name="project" value="LOCAL" />
       <updated>1706680416514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <option name="closed" value="true" />
+      <created>1706682161844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706682161844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <option name="closed" value="true" />
+      <created>1706682483378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706682483378</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <option name="closed" value="true" />
+      <created>1706682586435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706682586435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added lecture code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lecture code" />
+    <MESSAGE value="." />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
